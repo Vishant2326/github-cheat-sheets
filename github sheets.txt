@@ -1,0 +1,32 @@
+
+Command	                                                                         Description
+git init	                                                      Initialize a new git repository in the current directory
+git clone <repository_url>	                                    Clone an existing repository to your local machine
+git add <filename>	                                          Add a file to the staging area (preparing it for commit)
+git commit -m "commit message"	                              Commit changes to the repository with a descriptive message
+git push	                                                      Push your changes to the remote repository
+git pull	                                                      Pull changes from the remote repository to your local machine
+git status	                                                      Show the current state of the repository (which files have changes, etc.)
+git branch	                                                      List all branches in the repository
+git branch <branch_name>	                                    Create a new branch with the specified name
+git checkout <branch_name>	                                    Switch to the specified branch
+git merge <branch_name>	                                          Merge changes from the specified branch into the current branch
+git rebase <branch_name>	                                    Rebase the current branch on top of the specified branch
+git remote -v	                                                List all remote repositories
+git remote add <name> <repository_url>	                        Add a new remote repository with the specified name and URL
+git push <remote_name> <branch_name>	                        Push changes to the specified branch on the remote repository
+git pull <remote_name> <branch_name>	                        Pull changes from the specified branch on the remote repository to your local machine
+git fetch <remote_name>                                      	Fetch changes from the remote repository (but don't merge them)
+git push --tags	                                                Push all tags to the remote repository
+git clone --depth 1 <repository_url>	                        Clone a repository with only the most recent commit
+git log	                                                      View the commit history of the repository
+git diff	                                                      Show the differences between the current version of a file and the previous version
+git reset	                                                      Unstage changes that were previously added to the staging area
+git revert                                                       	Create a new commit that undoes the changes made in a previous commit
+git cherry-pick	                                                Apply the changes from a specific commit to the current branch
+git tag <tag_name>	                                          Create a new tag at the current commit
+git blame <filename>	                                          Show who made each change to a file and when they made it
+git stash	                                                      Temporarily save changes that you're not ready to commit yet
+git bisect	                                                      Find the commit that introduced a bug by using a binary search
+git submodule	                                                Add a submodule (i.e. a separate Git repository) as a subdirectory within the current repository
+git config	                                                      Configure your Git settings, including your name and email address
